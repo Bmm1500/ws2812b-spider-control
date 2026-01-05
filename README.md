@@ -82,7 +82,11 @@ Selectează placa corectă din Arduino IDE
 
 Încarcă sketch-ul
 
-Deschide Serial Monitor pentru a vedea adresa IP
+IP de poate vedea in mai multe feluri :
+- pe picioarele 1,2,3,4 daca se va conecta cu succes la router va fi aratat prin leduri ( rosu cifra sutelor, verde cifra zecilor, albastru cifra unitatilor) - apoi va face un test al ledurilor toate roso, verzi, albastre
+- daca dupa 10 incercari nu se leaga va la retea - va face un test de leduri toate rosii si apoi se poate lucra din butonul 2
+
+- in Serial Monitor pentru a vedea adresa IP
 
 Accesează IP-ul din browser
 
@@ -175,5 +179,6 @@ Ajustează luminozitatea pentru a evita consum excesiv
 Buton	Pin ESP32	Funcție
 BTN1	GPIO 23	Stingere LED-uri
 BTN2	GPIO 22	Ciclare moduri / efecte
+
 
 
