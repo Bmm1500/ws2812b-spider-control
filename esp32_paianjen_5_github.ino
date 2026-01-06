@@ -33,6 +33,7 @@ const char* password = "Your_Pass";
 #define btn2 22 // buton dreapta ( ciclare moduri aprindere)
 //#define mic  21 // microfon
 
+#define sound_pin 34 // senzor sunet
 int sound_level=0;
 
 CRGB leds1[NUM_LEDS];
@@ -363,49 +364,49 @@ void sting() {
 
 void automat() 
 {
-  efect5();
+  efect5(delayTime);
   delay(3000);
   fadeOut();
-  efect6();
+  efect6(delayTime);
   delay(3000);
   fadeOut();
-  efect7();
+  efect7(delayTime);
   delay(3000);
   fadeOut();
-  efect8();
+  efect8(delayTime);
   delay(3000);
   fadeOut();
-  efect9();
+  efect9(delayTime);
   delay(3000);
   fadeOut();
-  efect10();
+  efect10(delayTime);
   delay(3000);
   fadeOut();
-  efect11();
+  efect11(delayTime);
   delay(3000);
   fadeOut();
-  efect12();
+  efect12(delayTime);
   delay(3000);
   fadeOut();
-  efect13();
+  efect13(delayTime);
   delay(3000);
   fadeOut();
-  efect14();
+  efect14(delayTime);
   delay(3000);
   fadeOut();
-  efect15();
+  efect15(delayTime);
   delay(3000);
   fadeOut();
-  efect16();
+  efect16(delayTime);
   delay(3000);
   fadeOut();
-  efect17();
+  efect17(delayTime);
   delay(3000);
   fadeOut();
-  efect18);
+  efect18(delayTime);
   delay(3000);
   fadeOut();
-  efect19();
+  efect19(delayTime);
   delay(3000);
   fadeOut();
 }
